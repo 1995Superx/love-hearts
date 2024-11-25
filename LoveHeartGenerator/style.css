@@ -1,0 +1,45 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff1a1a;
+}
+
+#heartsContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.heart {
+    font-size: 50px;
+    margin: 5px;
+    animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
